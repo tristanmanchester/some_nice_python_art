@@ -1,3 +1,5 @@
+![Header Image](example_images/header.png)
+
 ## Requirements
 
 - Python 3.x
