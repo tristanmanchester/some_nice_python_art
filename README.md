@@ -1,5 +1,9 @@
 ![Header Image](example_images/header.png)
 
+This program takes two arrays of evenly spaced x and y values (together defining evenly spaced points on a grid) and passes them through a set of equations to obtain new x and y values for each point. This new set of x and y values is passed through the equations again for a given number of iterations, tracing the path of each starting point over time.
+
+The number of points created is defined by the lattice_size^2 (number of starting points) multiplied by the number of iterations, which for lattice_size = 100, n_iter = 1000000 (for example) is 10 billion points. Instead of asking our loyal silicon servants to plot the many billions of points that define our paths, we can create a 2D histogram to bin the points into a smaller grid, summing the number of times a point is in each bin. The log of this grid is taken to make the darker values more visible, and it's saved as a 16-bit png.
+
 ## Requirements
 
 - Python 3.x
