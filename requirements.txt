@@ -1,0 +1,5 @@
+matplotlib~=3.8.2
+numpy~=1.26.4
+tqdm~=4.66.1
+fast_histogram
+opencv-python
