@@ -1,3 +1,28 @@
+## Requirements
+
+- Python 3.x
+- NumPy
+- Matplotlib
+- OpenCV
+- tqdm
+- fast-histogram
+
+## Installation Instructions
+
+### Clone the Repository
+
+First, clone the repository to your local machine. You can do this by running the following command in your terminal:
+
+```bash
+git clone https://github.com/tristanmanchester/some_nice_python_art
+```
+Then, install the dependencies:
+```bash
+cd some_nice_python_art
+pip install -r requirements.txt
+```
+
+
 ## Usage
 
 The program consists of the following main files:
