@@ -1,5 +1,5 @@
 """
-Add your own equations here! Don't forget to import them into main.py
+Add your own equations here! u fuckin nerd
 """
 
 
