@@ -18,12 +18,7 @@ the parameters from the filename in `create_and_plot` to make a more detailed/hi
 
 
 from image_generation_utils import generate_random_images, create_and_plot
-from equations import (  # equations from equations.py
-    equation_1,
-    equation_2,
-    equation_6,
-    equation_7,
-)
+from equations import *
 
 
 ########################################################################################################################
